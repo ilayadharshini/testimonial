@@ -1,0 +1,184 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    max-width: 700px;
+    margin-top:50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 530px 300px 300px;
+    grid-template-rows: 250px 300px ;
+    height:fit-content;
+    border-radius: 5px;
+
+}
+
+.daniel{
+    background-color: hsl(263, 55%, 52%) ;
+    grid-row: auto;
+    height:250px;
+    padding: 13px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.side{
+    margin-left:300px;
+    margin-top:-60px;
+}
+.logodan img{
+    border-radius: 30px;
+    border:1.5px solid white;
+
+}
+.daniel h4{
+    color: white;
+    padding-left: 10px;
+    margin-top: -30px;
+}
+.daniel p{
+   margin-top: -9px;
+   opacity: 70%;
+   color:hsl(0, 0%, 100%) ;
+}
+.jonathan{
+    background-color:hsl(217, 19%, 35%) ;
+    height: fit-content;
+    padding:25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.jonathan img{
+    border-radius: 30px;
+    border:1.5px solid white;
+}
+.jonathan h4{
+    color: white;
+    padding-left: 10px;
+
+}
+.jonathan p{
+    margin-top: -7px;
+    opacity: 70%;
+    color:hsl(0, 0%, 100%) ;
+}
+.kira{
+    background-color:hsl(0, 0%, 100%);
+    height:490px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.kira img{
+    border-radius: 30px;
+}
+.kira h4{
+    padding-left: 10px;
+}
+.kira p{
+    margin-top: -7px;
+    opacity: 70%; 
+}
+.jeanette{
+    background-color:hsl(0, 0%, 100%);
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 203px;
+}
+.jeanette img{
+    border-radius: 30px;
+    margin-top: -3px;
+    
+}
+.jeanette p{
+    opacity: 70%;
+}
+.patrick{
+    background-color:hsl(219, 29%, 14%) ;
+    height:220px;
+    padding:10px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: -250px;
+    width:510px;
+}
+.patrick img{
+    border-radius: 30px;
+    border:2px solid hsl(263, 55%, 52%) ;
+}
+.patrick h4{
+    color:hsl(0, 0%, 100%) ;
+}
+.patrick p{
+    opacity: 70%;
+    color:hsl(0, 0%, 100%) ;
+}
+.name{
+    font-family: barlow semi condensed;
+    color:hsl(0, 0%, 100%);
+    margin-top: -50px;
+    margin-left: 75px;
+
+}
+.Verified{
+    color:hsl(0, 0%, 100%); 
+    opacity: 50%;
+    margin-left: 75px;
+
+}
+.black{
+    margin-top: -50px;
+    margin-left: 75px;
+}
+.verifiblack{
+    margin-left:75px ;
+    opacity: 50%;
+}
+
+@media only screen and (max-width:600px) {
+    .content{
+        display: grid;
+        grid-template-rows:100px 100px 100px 100px 100px;
+        display: table-row;
+        width: 300px;
+        align-content: center;
+    }
+    .daniel{
+        width:210px;
+        height: 460px;
+        margin-top: 30px;
+    }
+    .jonathan{
+        width: 190px;
+        height:250px ;
+    }
+    .kira{
+        width: 200px;
+        height: 600px;
+
+    }
+    .jeanette{
+        width: 200px;
+        height: 210px;
+        margin-top:20px ;
+    }
+    .patrick{
+        width: 220px;
+        height: 420px;
+        margin-left: 10px;
+        margin-top:-1px ;
+    }
+    .attribution{
+        margin-left: -50px;
+    }
+    .side img{
+        margin-left: -190px;
+    }
+    
+    
+}
